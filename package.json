@@ -1,0 +1,17 @@
+{
+  "name": "minecraft-whitelist-bot",
+  "module": "src/index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start": "bun run src/index.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "minecraft-protocol": "^1.47.0"
+  }
+}
